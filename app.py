@@ -21,7 +21,7 @@ except Exception as e:
     print("Failed to load Whisper model:", traceback.format_exc())
     model = None
 
-GOOGLE_API_KEY = "AIzaSyANFmSG6aSlW81UkTy50js1iPI363kPypo"  # <-- Paste your Google API key here
+GOOGLE_API_KEY = "Googl drive api key"  # <-- Paste your Google API key here
 
 @app.route('/transcribe', methods=['POST'])
 def transcribe():
